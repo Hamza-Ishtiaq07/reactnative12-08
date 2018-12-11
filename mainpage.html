@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Rozee.pk</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+
+    <div class="main">
+
+        <div class="upperLinks">
+            <tr >
+            <td>
+            <a class="homelink" href="#">Home</a>
+            </td>
+            <td>
+            <a class="homelink" href="#">Search Job</a>
+            </td>
+            </tr>
+        </div>
+               
+        <!-- Top Search bar -->
+    <div class="leftSizeContainer">
+            <div class="topSearch">
+                    <tr>
+                        <td>
+                                <input type="text" class="inputJob" placeholder="Job Title,skill and Company">
+                        </td>
+                        <td>
+                                <select class="dropdown">
+                                        <option value="Functional Area">Functional Area</option>
+                                        <option value="Administration">Administration</option>
+                                        <option value="Advertising">Advertising</option>
+                                        <option value="Data Entry">Data Entry</option>
+                                        <option value="Engineering">Engineering</option>
+                                        <option value="Computer Science">Computer Science</option>
+                                        <option value="Software Engineering">Software Engineering</option>
+                                        <option value="Data Entry">Data Entry</option>
+                                        <option value="Marketing">Marketing</option>
+                                      </select>
+                        </td>
+                        <td>
+                                <select  class="dropdown">
+                                        <option value="Islamabad">Islamabad</option>
+                                        <option value="Karachi">Karachi</option>
+                                        <option value="Lahore">Lahore</option>
+                                        <option value="Multan">Multan</option>
+                                        
+                                      </select>
+                        </td>
+                        <td>
+                                <select  class="dropdown">
+                                        <option value="Min-Salary">Min-Salary</option>
+                                        <option value="5,000">5,000</option>
+                                        <option value="10,000">10,000</option>
+                                        <option value="15,000">15,000</option>
+                                        <option value="20,000">20,000</option>
+                                        <option value="25,000">25,000</option>
+                                        <option value="30,000">30,000</option>
+                                        <option value="35,000">35,000</option>
+                                        <option value="40,000">40,000</option>
+                                        <option value="45,000">45,000</option>
+                                        <option value="50,000">50,000</option>
+                                        
+        
+                                      </select>
+                        </td>
+                        <td>
+                                <!-- <input class="searchimage" type="image" src="search.png" alt="Submit" > -->
+                        
+                                <input class="searchimage" type="submit"  >
+                            </td>
+                       
+                      
+                    </tr>
+        
+                
+                
+                </div>
+        
+                
+    </div>
+   
+      
+<div class="center-container">
+
+<div class="cen-1">
+        <div class="sideBlock1">
+                    
+                <div class="topText">
+                        <p>I found a job on Rozee</p>
+                </div>
+                <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                          <div class="numbertext">1 / 3</div>
+                          <img src="img_nature_wide.jpg" style="width:100%">
+                          <div class="text">Caption Text</div>
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          <div class="numbertext">2 / 3</div>
+                          <img src="img_snow_wide.jpg" style="width:100%">
+                          <div class="text">Caption Two</div>
+                        </div>
+                        
+                        <div class="mySlides fade">
+                          <div class="numbertext">3 / 3</div>
+                          <img src="img_mountains_wide.jpg" style="width:100%">
+                          <div class="text">Caption Three</div>
+                        </div>
+                        
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        
+                        </div>
+                        <br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>  
+        </div>
+
+        <div class="sideBlock2">
+                <button class="collapsible">Job title</button>
+                <div class="content">
+
+        <div class="single-job-field">
+      
+        <div class="cb">
+                <input type="checkbox"  width="30px">
+        </div>
+        <div class="child">
+                <p class="jobTitle-child">Sales executive</p>
+        </div>
+        <div class="child2">
+                <p class="jobTitle-child">110</p>
+        </div>
+        </div>
+
+        <div class="single-job-field">
+      
+        <div class="cb">
+                                <input type="checkbox"  width="30px">
+                        </div>
+                        <div class="child">
+                                <p class="jobTitle-child">Graphic Designer</p>
+                        </div>
+                        <div class="child2">
+                                <p class="jobTitle-child">96</p>
+                        </div>
+                        </div>
+
+        <div class="single-job-field">
+      
+        <div class="cb">
+                <input type="checkbox"  width="30px">
+        </div>
+        <div class="child">
+                <p class="jobTitle-child">content Writer</p>
+        </div>
+        <div class="child2">
+                <p class="jobTitle-child">40</p>
+        </div>
+        </div> 
+        
+        <div class="single-job-field">
+      
+                        <div class="cb">
+                                <input type="checkbox"  width="30px">
+                        </div>
+                        <div class="child">
+                                <p class="jobTitle-child">Accountant</p>
+                        </div>
+                        <div class="child2">
+                                <p class="jobTitle-child">38</p>
+                        </div>
+        </div>
+
+        <div class="single-job-field">
+      
+                        <div class="cb">
+                                <input type="checkbox"  width="30px">
+                        </div>
+                        <div class="child">
+                                <p class="jobTitle-child">Sales Officer</p>
+                        </div>
+                        <div class="child2">
+                                <p class="jobTitle-child">110</p>
+                        </div>
+        </div>
+</div>
+<button class="collapsible">City</button>
+                <div class="content">
+
+        <div class="single-job-field">
+      
+        <div class="cb">
+                <input type="checkbox"  width="30px">
+        </div>
+        <div class="child">
+                <p class="jobTitle-child">Karachi</p>
+        </div>
+        <div class="child2">
+                <p class="jobTitle-child">172</p>
+        </div>
+        </div>
+
+        <div class="single-job-field">
+      
+        <div class="cb">
+                                <input type="checkbox"  width="30px">
+                        </div>
+                        <div class="child">
+                                <p class="jobTitle-child">Lahore</p>
+                        </div>
+                        <div class="child2">
+                                <p class="jobTitle-child">100</p>
+                        </div>
+                        </div>
+
+        <div class="single-job-field">
+      
+        <div class="cb">
+                <input type="checkbox"  width="30px">
+        </div>
+        <div class="child">
+                <p class="jobTitle-child">Multan</p>
+        </div>
+        <div class="child2">
+                <p class="jobTitle-child">60</p>
+        </div>
+        </div> 
+        
+        <div class="single-job-field">
+      
+                        <div class="cb">
+                                <input type="checkbox"  width="30px">
+                        </div>
+                        <div class="child">
+                                <p class="jobTitle-child">Faisalabad</p>
+                        </div>
+                        <div class="child2">
+                                <p class="jobTitle-child">65</p>
+                        </div>
+        </div>
+
+        <div class="single-job-field">
+      
+                        <div class="cb">
+                                <input type="checkbox"  width="30px">
+                        </div>
+                        <div class="child">
+                                <p class="jobTitle-child">Islamabad</p>
+                        </div>
+                        <div class="child2">
+                                <p class="jobTitle-child">120</p>
+                        </div>
+        </div>
+</div>
+<button class="collapsible">Experience</button>
+                <div class="content">
+
+        <div class="single-job-field">
+      
+        <div class="cb">
+                <input type="checkbox"  width="30px">
+        </div>
+        <div class="child">
+                <p class="jobTitle-child">Fresh</p>
+        </div>
+        <div class="child2">
+                <p class="jobTitle-child">192</p>
+        </div>
+        </div>
+
+        <div class="single-job-field">
+      
+        <div class="cb">
+                                <input type="checkbox"  width="30px">
+                        </div>
+                        <div class="child">
+                                <p class="jobTitle-child">Less then 1 Year</p>
+                        </div>
+                        <div class="child2">
+                                <p class="jobTitle-child">429</p>
+                        </div>
+                        </div>
+
+        <div class="single-job-field">
+      
+        <div class="cb">
+                <input type="checkbox"  width="30px">
+        </div>
+        <div class="child">
+                <p class="jobTitle-child">1 Year</p>
+        </div>
+        <div class="child2">
+                <p class="jobTitle-child">1001</p>
+        </div>
+        </div> 
+        
+        <div class="single-job-field">
+      
+                        <div class="cb">
+                                <input type="checkbox"  width="30px">
+                        </div>
+                        <div class="child">
+                                <p class="jobTitle-child">2 Year</p>
+                        </div>
+                        <div class="child2">
+                                <p class="jobTitle-child">65</p>
+                        </div>
+        </div>
+
+        <div class="single-job-field">
+      
+                        <div class="cb">
+                                <input type="checkbox"  width="30px">
+                        </div>
+                        <div class="child">
+                                <p class="jobTitle-child">3 Year</p>
+                        </div>
+                        <div class="child2">
+                                <p class="jobTitle-child">120</p>
+                        </div>
+        </div>
+</div>
+<button class="collapsible">Job Type</button>
+                <div class="content">
+
+        <div class="single-job-field">
+      
+        <div class="cb">
+                <input type="checkbox"  width="30px">
+        </div>
+        <div class="child">
+                <p class="jobTitle-child">Full Time</p>
+        </div>
+        <div class="child2">
+                <p class="jobTitle-child">126</p>
+        </div>
+        </div>
+
+        <div class="single-job-field">
+      
+        <div class="cb">
+                                <input type="checkbox"  width="30px">
+                        </div>
+                        <div class="child">
+                                <p class="jobTitle-child">Contrat</p>
+                        </div>
+                        <div class="child2">
+                                <p class="jobTitle-child">116</p>
+                        </div>
+                        </div>
+
+        <div class="single-job-field">
+      
+        <div class="cb">
+                <input type="checkbox"  width="30px">
+        </div>
+        <div class="child">
+                <p class="jobTitle-child">Part Time</p>
+        </div>
+        <div class="child2">
+                <p class="jobTitle-child">324</p>
+        </div>
+        </div> 
+        
+        <div class="single-job-field">
+      
+                        <div class="cb">
+                                <input type="checkbox"  width="30px">
+                        </div>
+                        <div class="child">
+                                <p class="jobTitle-child">InternShip</p>
+                        </div>
+                        <div class="child2">
+                                <p class="jobTitle-child">154</p>
+                        </div>
+        </div>
+
+        <div class="single-job-field">
+      
+                        <div class="cb">
+                                <input type="checkbox"  width="30px">
+                        </div>
+                        <div class="child">
+                                <p class="jobTitle-child">FreeLance</p>
+                        </div>
+                        <div class="child2">
+                                <p class="jobTitle-child">31</p>
+                        </div>
+        </div>
+</div>
+
+
+
+<script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+        </script>
+        </div>
+</div>
+<div class="cen-2">
+    <div >
+            <img class="Ads-img" src="banner.jpg" style="width:100%">
+    </div>
+
+    <!-- Middle list Container -->
+    <div >
+            <div class="Ads-down1">
+                    <p class="P1" ><b>Product Evangelist</b></p>
+                    <p class="P2">Softech World Wide, Karachi, Pakistan</p>
+                    <p class="P3">VIDIZMO is a Microsoft Gold Applications & Cloud Partner, recognized in Gartner Magic Quadrant for Enterprise Video Content Management.VIDIZ..</p>
+            </div>
+            <div class="Ads-down1">
+                    <p class="P1" ><b>Product Evangelist</b></p>
+                    <p class="P2">Softech World Wide, Karachi, Pakistan</p>
+                    <p class="P3">VIDIZMO is a Microsoft Gold Applications & Cloud Partner, recognized in Gartner Magic Quadrant for Enterprise Video Content Management.VIDIZ..</p>
+            </div>
+            <div class="Ads-down1">
+                    <p class="P1" ><b>Product Evangelist</b></p>
+                    <p class="P2">Softech World Wide, Karachi, Pakistan</p>
+                    <p class="P3">VIDIZMO is a Microsoft Gold Applications & Cloud Partner, recognized in Gartner Magic Quadrant for Enterprise Video Content Management.VIDIZ..</p>
+            </div>
+            <div class="Ads-down1">
+                    <p class="P1" ><b>Product Evangelist</b></p>
+                    <p class="P2">Softech World Wide, Karachi, Pakistan</p>
+                    <p class="P3">VIDIZMO is a Microsoft Gold Applications & Cloud Partner, recognized in Gartner Magic Quadrant for Enterprise Video Content Management.VIDIZ..</p>
+            </div>
+            <div class="Ads-down1">
+                    <p class="P1" ><b>Product Evangelist</b></p>
+                    <p class="P2">Softech World Wide, Karachi, Pakistan</p>
+                    <p class="P3">VIDIZMO is a Microsoft Gold Applications & Cloud Partner, recognized in Gartner Magic Quadrant for Enterprise Video Content Management.VIDIZ..</p>
+            </div>
+            <div class="Ads-down1">
+                    <p class="P1" ><b>Product Evangelist</b></p>
+                    <p class="P2">Softech World Wide, Karachi, Pakistan</p>
+                    <p class="P3">VIDIZMO is a Microsoft Gold Applications & Cloud Partner, recognized in Gartner Magic Quadrant for Enterprise Video Content Management.VIDIZ..</p>
+            </div>
+            <div class="Ads-down1">
+                    <p class="P1" ><b>Product Evangelist</b></p>
+                    <p class="P2">Softech World Wide, Karachi, Pakistan</p>
+                    <p class="P3">VIDIZMO is a Microsoft Gold Applications & Cloud Partner, recognized in Gartner Magic Quadrant for Enterprise Video Content Management.VIDIZ..</p>
+            </div>
+            <div class="Ads-down1">
+                    <p class="P1" ><b>Product Evangelist</b></p>
+                    <p class="P2">Softech World Wide, Karachi, Pakistan</p>
+                    <p class="P3">VIDIZMO is a Microsoft Gold Applications & Cloud Partner, recognized in Gartner Magic Quadrant for Enterprise Video Content Management.VIDIZ..</p>
+            </div>
+    </div>
+</div>
+<div class="cen-3">
+
+    <div class="right-block">
+        <div class="right-block1">
+                <div class="first-half">
+                        <p class="right_first_text">Apptron Technologies</p>
+                </div>
+                <div class="second-half"></div>
+                <button class="Follow-button" type="button"><b>Follow</b></button>
+        </div>
+        <div class="right-block1">
+                    <div class="first-half">
+                            <p class="right_first_text">Apptron Technologies</p>
+                    </div>
+                    <div class="second-half"></div>
+                    <button class="Follow-button" type="button"><b>Follow</b></button>
+        </div>
+        <div class="right-block1">
+                        <div class="first-half">
+                                <p class="right_first_text">Apptron Technologies</p>
+                        </div>
+                        <div class="second-half"></div>
+                        <button class="Follow-button" type="button"><b>Follow</b></button>
+        </div>
+        <div class="right-block1">
+                            <div class="first-half">
+                                    <p class="right_first_text">Apptron Technologies</p>
+                            </div>
+                            <div class="second-half"></div>
+                            <button class="Follow-button" type="button"><b>Follow</b></button>
+        </div>
+        <div class="right-block1">
+                                <div class="first-half">
+                                        <p class="right_first_text">Apptron Technologies</p>
+                                </div>
+                                <div class="second-half"></div>
+                                <button class="Follow-button" type="button"><b>Follow</b></button>
+        </div>
+        <div class="right-block1">
+                                    <div class="first-half">
+                                            <p class="right_first_text">Apptron Technologies</p>
+                                    </div>
+                                    <div class="second-half"></div>
+                                    <button class="Follow-button" type="button"><b>Follow</b></button>
+        </div>
+        <div class="right-block1">
+                                        <div class="first-half">
+                                                <p class="right_first_text">Apptron Technologies</p>
+                                        </div>
+                                        <div class="second-half"></div>
+                                        <button class="Follow-button" type="button"><b>Follow</b></button>
+        </div>
+        <div class="right-block1">
+                                            <div class="first-half">
+                                                    <p class="right_first_text">Apptron Technologies</p>
+                                            </div>
+                                            <div class="second-half"></div>
+                                            <button class="Follow-button" type="button"><b>Follow</b></button>
+        </div>
+    </div>
+
+</div>
+
+  </div>
+
+
+    </div>
+
+
+</body>
+</html>
